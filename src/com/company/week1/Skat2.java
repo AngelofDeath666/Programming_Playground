@@ -1,4 +1,4 @@
-package com.company;
+package com.company.week1;
 
 public class Skat2{ public static void main(String[] args) {
         int indkomst = 120000, personFradrag = 33400;
