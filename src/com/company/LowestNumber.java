@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class LowestNumber {
     public static void main(String [] args) {
         double a, b, c;
-        double lowest = 0;
+        double lowest;
         Scanner scanner = new Scanner(System.in);
 
         a = scanner.nextDouble();
