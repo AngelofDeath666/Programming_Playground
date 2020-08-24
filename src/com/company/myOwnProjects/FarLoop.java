@@ -37,6 +37,16 @@ public class FarLoop {
                 System.out.println("Du er dum!");
             } else if (name.equalsIgnoreCase("kejser")){
                 System.out.println("Du er dum!");
+            } else if (name.equalsIgnoreCase("jenshansen")){
+                System.out.println("Du er dum!");
+            } else if (name.equalsIgnoreCase("jenskejser")){
+                System.out.println("Du er dum!");
+            } else if (name.equalsIgnoreCase("kejserhansen")){
+                System.out.println("Du er dum!");
+            } else if (name.equalsIgnoreCase("dengamleavis")){
+                System.out.println("Du er dum!");
+            } else if (name.equalsIgnoreCase("gamleavis")){
+                System.out.println("Du er dum!");
             } else {
                 System.out.println("Du er sød!");
             }
