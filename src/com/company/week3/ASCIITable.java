@@ -13,7 +13,7 @@ public class ASCIITable {
 
         String input = scanner.nextLine();
 
-        while (!input.equalsIgnoreCase("exit")){
+        while (!input.equalsIgnoreCase("exit")){ //you forgot r,s,t in both capital and lowercase
             char cha = input.charAt(0);
             if (cha == A || cha == B || cha == C ||cha == D ||cha == E ||cha == F ||cha == G ||cha == H ||cha == I ||cha == J ||cha == K ||cha == L ||cha == M ||cha == N ||cha == O ||cha == P ||cha == Q ||cha == U ||cha == V ||cha == W ||cha == X ||cha == Y ||cha == Z ){
                 System.out.println("Tegnet er et stort bokstav");
