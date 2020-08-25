@@ -15,10 +15,10 @@ public class ASCIITable {
 
         while (!input.equalsIgnoreCase("exit")){ //you forgot r,s,t in both capital and lowercase
             char cha = input.charAt(0);
-            if (cha == A || cha == B || cha == C ||cha == D ||cha == E ||cha == F ||cha == G ||cha == H ||cha == I ||cha == J ||cha == K ||cha == L ||cha == M ||cha == N ||cha == O ||cha == P ||cha == Q ||cha == U ||cha == V ||cha == W ||cha == X ||cha == Y ||cha == Z ){
-                System.out.println("Tegnet er et stort bokstav");
-            } else if (cha == a || cha == b || cha == c ||cha == d ||cha == e ||cha == f ||cha == g ||cha == h ||cha == i ||cha == j ||cha == k ||cha == l ||cha == m ||cha == n ||cha == o ||cha == p ||cha == q ||cha == u ||cha == v ||cha == w ||cha == x ||cha == y ||cha == z ){
-                System.out.println("Tegnet er et lille bokstav");
+            if (cha == A || cha == B || cha == C ||cha == D ||cha == E ||cha == F ||cha == G ||cha == H ||cha == I ||cha == J ||cha == K ||cha == L ||cha == M ||cha == N ||cha == O ||cha == P ||cha == Q ||cha == R||cha == S ||cha == T ||cha == U ||cha == V ||cha == W ||cha == X ||cha == Y ||cha == Z ){
+                System.out.println("Tegnet er et stort bogstav");
+            } else if (cha == a || cha == b || cha == c ||cha == d ||cha == e ||cha == f ||cha == g ||cha == h ||cha == i ||cha == j ||cha == k ||cha == l ||cha == m ||cha == n ||cha == o ||cha == p ||cha == q ||cha == r ||cha == s ||cha == t ||cha == u ||cha == v ||cha == w ||cha == x ||cha == y ||cha == z ){
+                System.out.println("Tegnet er et lille bogstav");
             } else if (cha == n1 || cha == n2 || cha == n3|| cha == n4|| cha == n5|| cha == n6|| cha == n7|| cha == n8|| cha == n9|| cha == n0){
                 System.out.println("Tegnet er et tal");
             } else if (cha == s1 || cha == s2|| cha == s3|| cha == s4) {
